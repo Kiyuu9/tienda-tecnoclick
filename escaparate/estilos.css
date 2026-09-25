@@ -37,11 +37,13 @@ header {
 
 .producto {
     flex: 1 1 180px;
-    background: white;
+    background: linear-gradient(70deg, grey,black);
+    color:#ccc;
     border: 1px solid #ccc;
+    box-shadow: 20px 20px  gray;
     border-radius: 4px;
     padding: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 5px 4px 5px rgba(0,0,0,0.1);
 }
 
 .precio {
@@ -50,7 +52,7 @@ header {
 
 .carrito {
     flex: 1;
-    background: #e8e8e8;
+    background: linear-gradient(207deg, #D9D9F0 0%, #C8C4E8 11%, #EDEBFA 57%);
     border-radius: 8px;
     padding: 12px;
     min-height: 200px;
