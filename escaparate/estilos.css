@@ -1,5 +1,5 @@
 :root {
-    --colorbg-producto:linear-gradient(70deg, grey,black);
+    --colorbg-producto: rgb(58, 58, 58);
     --colorbg-carrito:linear-gradient(207deg, #D9D9F0 0%, #C8C4E8 11%, #EDEBFA 57%);
 }
 * {
@@ -10,7 +10,7 @@ body {
     background: #f2f2f2;
     font-family: sans-serif;
     margin: 0;
-    padding: 16px;ccc
+    padding: 16px;
 }
 
 header {
@@ -47,6 +47,11 @@ header {
     box-shadow: 3px 4px 4px  #ccc;
     border-radius: 4px;
     padding: 10px;
+    transition: background 0.2s ease;
+}
+
+.producto:hover {
+    background: gray; 
 }
 
 .precio {
@@ -64,5 +69,4 @@ header {
 .stock-bajo {
     border: 5px solid #c0392b;
     box-shadow: 3px 4px 4px  #c0392b;
-
 }
